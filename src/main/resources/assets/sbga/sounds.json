@@ -1,0 +1,22 @@
+{
+  "xterfusion": {
+    "subtitle": "subtitles.sbga.xterfusion",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "sbga:xterfusion",
+        "stream": true
+      }
+    ]
+  },
+  "qzkago": {
+    "subtitle": "subtitles.sbga.qzkago",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "sbga:qzkago",
+        "stream": true
+      }
+    ]
+  }
+}

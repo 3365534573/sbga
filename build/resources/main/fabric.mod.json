@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "sbga",
+  "version": "1.0-SNAPSHOT",
+  "name": "Sbga",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/sbga/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "sbga.sbga.client.sbgaDataGenerator"
+    ],
+    "client": [
+      "sbga.sbga.client.sbgaClient"
+    ],
+    "main": [
+      "sbga.sbga.sbga"
+    ]
+  },
+  "mixins": [
+    "sbga.mixins.json",
+    {
+      "config": "sbga.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.6",
+    "fabric-api": "*",
+    "minecraft": "1.20.1"
+  }
+}
