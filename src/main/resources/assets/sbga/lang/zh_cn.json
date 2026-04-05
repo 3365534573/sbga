@@ -5,5 +5,10 @@
   "item.sbga.music_disc_qzkago": "音乐唱片",
   "item.sbga.music_disc_qzkago.desc": "Qzkago",
   "subtitles.sbga.qzkago": "Qzkago",
-  "item.sbga.false_milk": "假牛奶"
+  "item.sbga.false_milk": "假牛奶",
+  "item.sbga.coin": "游戏币",
+  "subtitles.sbga.error": "错误",
+  "subtitles.sbga.success": "成功",
+  "item.sbga.logout": "神秘小工具",
+  "item.sbga.maimai": "maimai"
 }

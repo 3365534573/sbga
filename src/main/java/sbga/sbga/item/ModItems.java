@@ -34,6 +34,21 @@ public class ModItems {
             "false_milk"
     );
 
+    public static final Item COIN = register(
+            new Item(new Item.Settings().maxCount(64)),
+            "coin"
+    );
+
+    public static final Item LOGOUT = register(
+            new LogoutItem(new Item.Settings().maxCount(1)),
+            "logout"
+    );
+
+    public static final Item MAIMAI = register(
+            new MaimaiItem(new Item.Settings().maxCount(1)),
+            "maimai"
+    );
+
     private static <T extends Item> T register(T item, String id) {
         Identifier itemID = new Identifier(sbga.MOD_ID, id);
         return Registry.register(Registries.ITEM, itemID, item);
@@ -51,6 +66,21 @@ public class ModItems {
         // Add false_milk to Food and Drink tab
         ItemGroupEvents.modifyEntriesEvent(net.minecraft.item.ItemGroups.FOOD_AND_DRINK).register(content -> {
             content.add(FALSE_MILK);
+        });
+
+        // Add coin to Ingredients tab
+        ItemGroupEvents.modifyEntriesEvent(net.minecraft.item.ItemGroups.INGREDIENTS).register(content -> {
+            content.add(COIN);
+        });
+
+        // Add logout to Tools tab
+        ItemGroupEvents.modifyEntriesEvent(net.minecraft.item.ItemGroups.TOOLS).register(content -> {
+            content.add(LOGOUT);
+        });
+
+        // Add maimai to Tools tab
+        ItemGroupEvents.modifyEntriesEvent(net.minecraft.item.ItemGroups.TOOLS).register(content -> {
+            content.add(MAIMAI);
         });
     }
 }

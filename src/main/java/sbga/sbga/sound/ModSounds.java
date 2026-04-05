@@ -12,6 +12,8 @@ public class ModSounds {
 
     public static final SoundEvent XTERFUSION = registerSound("xterfusion");
     public static final SoundEvent QZKAGO = registerSound("qzkago");
+    public static final SoundEvent ERROR = registerSound("error");
+    public static final SoundEvent SUCCESS = registerSound("success");
 
     private static SoundEvent registerSound(String id) {
         Identifier identifier = new Identifier(sbga.MOD_ID, id);

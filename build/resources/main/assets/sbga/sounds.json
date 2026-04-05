@@ -18,5 +18,25 @@
         "stream": true
       }
     ]
+  },
+  "error": {
+    "subtitle": "subtitles.sbga.error",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "sbga:error",
+        "stream": true
+      }
+    ]
+  },
+  "success": {
+    "subtitle": "subtitles.sbga.success",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "sbga:success",
+        "stream": true
+      }
+    ]
   }
 }

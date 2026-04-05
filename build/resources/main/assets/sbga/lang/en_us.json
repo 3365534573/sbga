@@ -5,5 +5,10 @@
   "item.sbga.music_disc_qzkago": "Music Disc",
   "item.sbga.music_disc_qzkago.desc": "Qzkago",
   "subtitles.sbga.qzkago": "Qzkago",
-  "item.sbga.false_milk": "False Milk"
+  "item.sbga.false_milk": "False Milk",
+  "item.sbga.coin": "Coin",
+  "subtitles.sbga.error": "Error",
+  "subtitles.sbga.success": "Success",
+  "item.sbga.logout": "Mysterious Gadget",
+  "item.sbga.maimai": "Maimai"
 }
